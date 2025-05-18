@@ -1,0 +1,73 @@
+# T-Rex Runner Game
+
+A browser-based recreation of the classic Chrome dinosaur game that appears when you're offline.
+
+![T-Rex Runner Game](img/chrome_offline_game.gif)
+
+## Description
+
+T-Rex Runner is an endless runner game where you control a dinosaur that must jump over cacti to survive. The game progressively gets more challenging as your score increases.
+
+## Features
+
+- Simple one-button gameplay (jump with Space bar or Up arrow)
+- Ducking mechanic (Down arrow)
+- Progressive difficulty with increasing speed
+- Colorful obstacles that change with each spawn
+- Day/night cycle that changes every 50 points
+- High score tracking
+- Responsive design
+
+## How to Play
+
+1. Open `index.html` in your browser to start the game
+2. Press **Space** or **Up Arrow** to make the dinosaur jump
+3. Press **Down Arrow** to duck
+4. Avoid hitting the cacti to survive
+5. Your score increases automatically as you play
+6. When you hit an obstacle, the game ends
+7. Click the **Restart** button to play again
+
+## Game Controls
+
+- **Space / Up Arrow**: Jump
+
+## Technical Details
+
+The game is built using vanilla JavaScript with HTML5 Canvas for rendering. It features:
+
+- Sprite-based animation
+- Collision detection
+- Procedurally generated obstacles
+- Dynamic day/night cycle
+- Responsive design for different screen sizes
+
+## File Structure
+
+- `index.html` - The main HTML file
+- `style.css` - Styles for the game UI
+- `game.js` - The game logic and rendering code
+- `img/` - Directory containing all game sprites and assets
+
+## Installation
+
+No installation required! Simply clone or download this repository and open `index.html` in your web browser.
+
+```bash
+git clone github.com/techSaswata/T-rex-Dino
+cd T-rex-Dino
+```
+
+Then open `index.html` in your browser.
+
+## Browser Compatibility
+
+This game works in all modern browsers that support HTML5 Canvas:
+- Chrome
+- Firefox
+- Safari
+- Edge
+
+---
+
+Made with ❤️ by techy

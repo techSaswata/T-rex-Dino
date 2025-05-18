@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    position: relative;
+    margin-top: 50px;
+}
+
+#game {
+    border: 1px solid #535353;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#score, #high-score {
+    position: absolute;
+    top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #535353;
+    font-family: monospace;
+}
+
+#score {
+    right: 20px;
+}
+
+#high-score {
+    right: 100px;
+}
+
+#game-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 24px;
+    color: #535353;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#game-over.hidden {
+    display: none;
+}
+
+#restart {
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #535353;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#restart:hover {
+    background-color: #404040;
+} 
